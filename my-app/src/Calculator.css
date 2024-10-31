@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+html {
+    height: 100%;                     
+    margin: 0;                        
+    display: flex;                    
+    align-items: center;              
+    justify-content: center;   
+    
+    background-image: url("https://www.greenpea.com/wp-content/uploads/2022/05/toh_photo-2.png");
+    background-size: 20%;
+    background-repeat: round;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 0 0 10px 10px #33cc33;
+    
+    border: 2px solid green ;
+    border-radius: 4px;
+
+    padding: 30px;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.operations{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.css-1abvrni-MuiButtonBase-root-MuiButton-root{
+    line-height: 1.75;
+    font-size: 12px;
+}
+

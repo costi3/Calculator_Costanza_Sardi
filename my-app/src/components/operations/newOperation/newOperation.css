@@ -1,0 +1,23 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    padding:6px;
+}
+
+.row input, .row select {
+    padding: 5px 10px; 
+    margin-right: 10px; 
+}
+
+.row button{
+    padding: 5px 10px; 
+}
+
+.row input, .row select{
+    border: 1px solid green;
+    border-radius: 4px;
+}
+
